@@ -1,0 +1,10 @@
+[Unit]
+Description=Cambio automático de Fondo de Pantalla
+
+[Service]
+Type=oneshot
+RemainAfterExit=false
+ExecStart=/home/sergio/.local/bin/change_wallpaper.sh
+
+[Install]
+WantedBy=default.target

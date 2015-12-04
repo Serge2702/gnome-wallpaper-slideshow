@@ -1,0 +1,9 @@
+[Unit]
+Description=Cambio automático de Fondo de Pantalla
+
+[Timer]
+OnActiveSec=5min
+OnUnitActiveSec=5min
+
+[Install]
+WantedBy=default.target
